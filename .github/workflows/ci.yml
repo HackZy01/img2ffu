@@ -81,6 +81,6 @@ jobs:
       with:
         name: pre-release
         body: Bleeding-edge build
-        artifacts: "win-arm64-binaries", "win-x64-binaries", "win-x86-binaries"
+        artifacts: win-arm64-binaries, win-x64-binaries, win-x86-binaries
         tag: pre-release
         token: ${{ secrets.GITHUB_TOKEN }}
